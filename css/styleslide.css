@@ -1,0 +1,49 @@
+* {box-sizing:border-box}
+
+/* Hide the images by default */
+.slideKu {
+	display: none;
+}
+
+
+/* Caption text */
+.text {
+	color: #f2f2f2;
+	font-size: 24px;
+	padding: 8px 12px;
+	position: absolute;
+	bottom: 8px;
+	width: 100%;
+	text-align: center;
+	font-family: sans-serif;
+	background-color: #00000080;
+}
+
+.text:hover {
+	background-color: #0000004F;
+}
+
+/* Number text (1/5 etc) */
+.numbertext {
+	color: #f2f2f2;
+	font-size: 18px;
+	padding: 8px 12px;
+	position: absolute;
+	right: 0;
+	bottom: 0;
+	border-radius: 15px 0 0 0;
+	display: inline-block;
+	background: #007BFF;
+	font-family: sans-serif;
+}
+
+/* Fading animation */
+.fade {
+	animation-name: fade;
+	animation-duration: 1.5s;
+}
+
+@keyframes fade {
+	from {opacity: .4} 
+	to {opacity: 1}
+}
